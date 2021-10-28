@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='initial-scale=1, width=device-width, viewport-fit=cover'>
+        <link rel="stylesheet" type="text/css" href="pretest2.css">
+        <title>Pretest2</title>
+    </head>
+    <body>
+        <div class="regisform">
+            <h1>REGISTRATION FORM</h1>
+            <h1>Em quên cách căn chỉnh ngay chỗ cái form cô giúp e với</h1>
+            <h3>Notes:</h3>
+            <label><b>1.</b> Fields with(<a>*</a>)mark must be entered</label> <br>
+            <label>2. Login name have no spaces</label>
+        </div>
+        <form>
+            <div>
+                <label id="small-text" for="">Login name<a>*</a> </label>
+                <input type="text" name="user" id="user" required>
+            </div>
+    
+            <div>
+                <label id="small-text" for="">Password<a>*</a> </label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+
+            <div>
+                <label id="small-text" for="">Password Confirm<a>*</a> </label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+
+            <div>
+                <label id="small-text" for="">Full name<a>*</a> </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+                <label id="small-text" for="">Address<a>*</a> </label>
+                <input type="text" name="address" id="address" required>
+            </div>
+            
+            <div>
+                <label id="small-text" for="">Email<a>*</a> </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label id="small-text" for="">Sex </label>
+                <input type="radio" name="gender" id="gender" value="male"> Male 
+                <input type="radio" name="gender" id="gender" value="female"> Female
+            </div>
+
+            <div>
+                <label id="small-text" for="">Date of birth </label>
+                <input type="date" name="dob" id="dob" min="1990-01-31" max="2006-12-31" value="1989-01-01">
+            </div>
+
+            <div>
+                <label id="small-text" for="">Country: </label>
+                <select name="city" id="city">
+                    <option value="SG">HoChiMinh city</option>
+                    <option value="HN">Hanoi capital</option>
+                    <option value="CT">CanTho city</option>
+                    <option value="DN">DaNang city</option>
+                </select>
+            </div>
+    
+            <div>
+                <label id="small-text" for="">Phone number </label>
+                <input type="number" id="phone" name="phone">
+            </div>
+    
+            <div>
+                <label id="small-text" for="">Hobbies </label>
+                <input type="checkbox" name="hobbies_1" id="hobbies_1" value="Boi loi"> Swimming
+                <input type="checkbox" name="hobbies_2" id="hobbies_2" value="Nhay"> Dancing
+                <input type="checkbox" name="hobbies_3" id="hobbies_3" value="Mua sam"> Shopping
+            </div>
+
+            <div>
+                <label id="small-text" for="">Comments </label>
+                <textarea name="comment" id="comment" cols="50" rows="5" placeholder="comment here..."></textarea>
+    
+            </div>
+            <input id="submit" type="submit" value="Submit">
+            <input id="reset" type="reset" value="Reset">
+        </form>
+    </body>
+</html>

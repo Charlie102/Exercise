@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+h3{
+    color: blue;
+}
+a{
+    color: red;
+}
+form{
+    text-align: center;
+}
+#small-text{
+    padding: 0.5rem;
+    text-align: right;
+}
+#reset, #submit{
+    background-color: #C0C0C0;
+}
+#submit:hover{
+    background: lightblue;
+}
+#reset:hover{
+    background: lightblue;
+}
